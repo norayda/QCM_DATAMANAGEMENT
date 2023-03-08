@@ -1,0 +1,99 @@
+,,,
+Test Guideline,To All,,"You have 30 minutes to complete this test. You are responsible for submitting your answers to Wewyse in due time. In your answer, please describe relevant methodologies, processes and/or tools, and provide descriptive examples if necessary. Each answer should be written in English, and should not be longer than three sentences, because you have only 30 minutes."
+,To DM Expert,,Any specific advice or instruction ?
+,To Data PO,,Any specific advice or instruction ?
+,,,
+DM Category,Theme,Question number,Question
+DM Expert,Semantic layer,1,"In a metadata management solution, describe the different possible data semantic layers"
+DM Expert,Semantic layer,2,What is the difference between a business layer and a functional data semantic layer ?
+DM Expert,Semantic layer,3,What is are the biggest outcomes for managing the technical data semantic layer ?
+DM Expert,Semantic layer,4,"In general, describe the most important population intersected by each data semantic layer."
+DM Expert,Master Data,5,Describe two or three master data commonly met in companies.
+DM Expert,Master Data,6,Give the definition of a master data.
+DM Expert,Master Data,7,"According to your experience, what are the 3 biggests outcomes of a master data initiative ?"
+DM Expert,Master Data,8,"According to your experience, is a MDM initiative a business problematic ? an IT problematic ? both ? Please explain in a few words."
+DM Expert,Data Quality,9,"Describe a Data Quality issue : dimension, issue description, issue impact on the use of data by business."
+DM Expert,Data Quality,10,What is remediation in Data Quality ? Provide a illustrative example.
+DM Expert,Data Quality,11,Provide general good practices you would promote to industrialize Data Quality.
+DM Expert,Data Quality,12,"According to your experience, what could be the most simple type of tool to begin in Data Quality with?"
+DM Expert,Data Governance,13,"Provide your definition of Data Governance, and what key issues it is addressing."
+DM Expert,Data Governance,14,Centralised Data Governance model : what are the pros and cons of this model ?
+DM Expert,Data Governance,15,Autonomous Data Governance model : what are the pros and cons of this model ?
+DM Expert,Data Governance,16,Test and Learn applied to definition of a Data Governance model : How would you describe it ?
+DM Expert,Data Use cases,17,What is a data catalog ? Describe main functionalities and identify at least one commercial solution.
+DM Expert,Data Use cases,18,What is data lineage ? Describe main functionalities and identify at least one commercial solution.
+DM Expert,Data Use cases,19,Describe the difference between a glossary and a dictionary in a company.
+DM Expert,Data Use cases,20,Please provide frequent data use cases in banking sector.
+DM Expert,Change Management,21,Should Data Governance always include change management ? Explain your point of view with an example.
+DM Expert,Change Management,22,Provide change management good practices you would promote while deploying a new data governance organization.
+DM Expert,Change Management,23,When is it more relevant to launch change management on a new project ? Please provide arguments.
+DM Expert,Change Management,24,"On very new data use cases on a very new platform, why would it be necessary to train stakeholders before the implementation?"
+DM Expert,Business Expertise,1,"Please identify the line of business you know best (bank, retail, industry, transport...) and describe with one sentence each three major data use cases you think are representatives of this line."
+DM Expert,Situations,1,There is a known sponsor for your data management program but he or she is never present in the meetings or workshops. What do you suggest ?
+DM Expert,Situations,2,The CTO refuses totally the publication of IT data documentation in the cloud. What could be his reasons?
+DM Expert,Situations,3,The data citizens who would consume the data sets published in a data catalog are not aware about data protection rules. What do you suggest ?
+DM Expert,Situations,4,"IT has implemented the MDM a few years ago. To ensure the group digital strategy, it is essential that Marketing and Supply Directions get really involved. What could be the first steps for this transition from IT to business ?"
+DM Expert,Situations,5,The data scientists ask the data engineers to be more proactive on the quality of the data that flows each day in the pipelines they deliver. What tool and/or best practice would you propose?
+DM Expert,Situations,6,The data engineers ask the data scientists to be more proactive on the production readiness and scalability of the models they deliver. What tool and/or best practice would you propose?
+DM Expert,Situations,7,Business teams regularly miss the collaborative workshop your organise on your product - and you have to re-schedule. What action do you take to ensure attendance ?
+DM Expert,Situations,8,"You arrive on a new mission, but your client is not very available during you first days. What do you engage in to gain a comptetitive edge on your mission ?"
+DM Expert,Situations,9,"You encounter major difficulties on your mission : relation to partner deteriorate, client confidence decrease, and your happiness at work is at his lowest. What action should you take rapidly ?"
+DM Expert,Situations,10,The Data Owner of a major data set is leaving ; what actions should be prioritized ?
+Data PO,Data Product,1,What would be the particularities of a Data PO compared to another PO
+Data PO,Data Product,2,Do you think that a Data product necessarily involves a feature team? Explain your answer
+Data PO,Data Product,3,"How would you define a Data product ? (needs, goals, objectives, ...)"
+Data PO,Data Product,4,"Based on your experiences, what are the key concepts to take into account when building a Data product?"
+Data PO,UX principles,5,How would you define User Experience ? You can provide an example based on a Data Product.
+Data PO,UX principles,6,User Experience with Data Visualisation tools : please describe some principles you consider relevant.
+Data PO,UX principles,7,How would you define Data-driven UX ? You can provide an example based on an application you use daily.
+Data PO,UX principles,8,How and when could you integrate an UX/UI in the framing of a feature ?
+Data PO,Agile roles,9,"In 3 points, how could you define the roles of a Product Owner ?"
+Data PO,Agile roles,10,"Is it recommended to have several products in a team, and why? "
+Data PO,Agile roles,11,You are a PO. Stakeholders talk live with developers. Explain the problem and how can you get around it?
+Data PO,Agile roles,12,"In your opinion, what can differentiate a PO from a PM ?"
+Data PO,Agile rituals & Artefacts,13,Your top management wants you to maintain a burn down per developer to monitor their activities. What are the risks?
+Data PO,Agile rituals & Artefacts,14,"Is it necessary for the PO to attend the daily meeting, argue your answer?"
+Data PO,Agile rituals & Artefacts,15,What are the differences between Product Backlog and Sprint Backlog
+Data PO,Agile rituals & Artefacts,16,What are the objectives of a Sprint Review from the point of view of a PO ?
+Data PO,Roles in Data Products,17,Which statement best describes Product Owner's responsibility?
+Data PO,Roles in Data Products,18,You are a new PO of an existing Product. What are your first goals ?
+Data PO,Roles in Data Products,19,How do you quickly make it easier for the development team to understand the objectives of a product? What would you put in place?
+Data PO,Roles in Data Products,20,What steps should be put in place to integrate stakeholders in the co-building of a Product strategy?
+Data PO,Roles in Data Gouv,21,What is the role of the Data Owner ? Describe some common responsibilities associated and provide illustrative examples.
+Data PO,Roles in Data Gouv,22,What is the role of the Data Steward ? Describe some common responsibilities associated and provide illustrative examples.
+Data PO,Roles in Data Gouv,23,What is the role of the Data Quality Manager ? Describe some common responsibilities associated and provide illustrative examples.
+Data PO,Roles in Data Gouv,24,What is the role of the Head of Data Governance ? Describe some common responsibilities associated and provide illustrative examples.
+Data PO,Data vizualisation,25,You are to developp a POC for a Dashboard on a newly created Data Set. What list of consecutive tasks do you suggest ?
+Data PO,Data vizualisation,26,What advantages could you have to build a data model specifically adapted to a Dashboard ?
+Data PO,Data vizualisation,27,You are to developp a POC for a Dashboard on a newly created Data Set. Please provide a few good principles you consider should be verified for any data visualisation.
+Data PO,Data vizualisation,28,"Could you give eventual differencies between the tools like Tableau, PowerBI and QlickSense ?"
+Data PO,SQL,29,"SELECT P.PRODUCT_CODE, P.PRODUCT_DESCRIPTION, P.PRODUCT_NAME, S.TURNOVER,
+    FROM PRODUCTS AS P
+    LEFT JOIN SALES AS S
+    ON P.PRODUCT_CODE = S.PRODUCT
+    ORDER BY P.PRODUCT_NAME;
+Explain what this SQL request provides."
+Data PO,SQL,30,"SELECT DISTINCT PRODUCT_SALESCOUNTRIES, PRODUCT_CATEGORY
+    FROM PRODUCTS
+    WHERE PRODUCT_DESCRIPTION=""International product"";
+Explain what this SQL request provides."
+Data PO,SQL,31,"SELECT COUNT(PRODUCT_ID) AS NB_PROD, COUNT(DISTINCT PRODUCT_SALESCOUNTRIES) AS NB_COUNTRIES, COUNT(DISTINCT PRODUCT_CATEGORY) AS NB_CAT, PRODUCT_SALES_STATUS
+     FROM PRODUCTS
+     GROUP BY PRODUCT_SALES_STATUS
+     ORDER BY PRODUCT_SALES_STATUS;
+Explain what this SQL request provides."
+Data PO,SQL,32,"SELECT COUNT(*) AS RESULT_1
+FROM (SELECT DISTINCT CUSTOMER_ID FROM SALES WHERE YEAR = 2021) Y1
+LEFT JOIN (SELECT DISTINCT CUSTOMER_ID FROM SALES WHERE YEAR = 2022) Y2
+ON Y1.CUSTOMER_ID = Y2.CUSTOMER_ID;
+Explain what this SQL request provides."
+Data PO,Situations,1,"You are sure that some product features are not used at all, and some features users always request are not delivered. What method could you propose to solve the problem in a durable context?"
+Data PO,Situations,2,"Your top management follows the product with OKR and KPIs, but your team doesn't know what data have to be supplied to build all the KPI. What do you suggest?"
+Data PO,Situations,3,"The users were proactive during the MVP with prior features, but now, for few months, they show a lack of creativity. What you and your team could propose?"
+Data PO,Situations,4,"You arrived as a PO in a company that, according to you, is not agile. What would be your first move?"
+Data PO,Situations,5,What is the biggest size of a team a PO would be able to work with?
+Data PO,Situations,6,When is a Product Backlog item considered complete?
+Data PO,Situations,7,Give an element and its context that you have seen in practice but not learned in theory about your role as Data Product Owner
+Data PO,Situations,8,What differentiates a Data PO from another PO ?
+Data PO,Situations,9,You manage a Product used by 5 customers. What do you need to do to make sure the prioritization of features is right for everyone ?
+Data PO,Situations,10,When can an abnormal termination of a Sprint be called and by whom? 
