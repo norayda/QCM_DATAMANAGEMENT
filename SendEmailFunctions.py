@@ -34,13 +34,20 @@ def create_message_from_dictionary(dictionary, name) :
 
     body_message = ''
 
-    for i, key in enumerate(dictionary) :
-        body_message += "    ~~ QUESTION " + str(i+1) + "/" + str(nb_questions) + " " 
+    keys = list(dictionary.keys())
+    keys.sort()
+    i=0
+
+    for key in keys:
+        i+=1
+        body_message += "    ~~ QUESTION " + str(i) + "/" + str(nb_questions) + " " 
         body_message += dictionary[key]["Question"] 
         body_message += "\nSUBMITTED ANSWER : " + str(dictionary[key]["Submitted answer"])
         body_message += "\n\n\n"
     
     head_message += "     ~~~~ "
+
+
 
     return head_message + body_message
 
