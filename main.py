@@ -33,7 +33,7 @@ if 'name' not in st.session_state:
 	st.session_state.name = None
 
 if 'num_question' not in st.session_state:
-	st.session_state.num_question = -1 ###minus 1 because, the first value of the form is always void
+	st.session_state.num_question = 0 ###minus 1 because, the first value of the form is always void
 
 if 'out_of_time' not in st.session_state:
 	st.session_state.out_of_time = False
@@ -132,10 +132,16 @@ def start_qcm() :
         st.warning("You must enter your name to access the test")
 
 def save_answer(key):
+
     answer = st.session_state.local_answer
+    actual_answer = st.session_state.questions_dictionnary[key]["Submitted answer"]
+
     st.session_state.questions_dictionnary[key]["Submitted answer"] = answer
-    if len(st.session_state.questions_dictionnary[key]["Submitted answer"])>0 and key not in st.session_state.answers_submited:
+
+    #to count the submited answer
+    if (actual_answer is not None) and (len(actual_answer)>0) and (key not in st.session_state.answers_submited):
         st.session_state.answers_submited.append(key)
+
     #update global data
     st.session_state.local_answer = None
 
@@ -174,8 +180,10 @@ def display_quizz(category):
 
 
 #Function displaying the categories
-def show_questions_list():
+def show_questions_list(): 
     st.session_state.category_list = list(set([st.session_state.questions_dictionnary[x]["Category"] for x in st.session_state.questions_dictionnary.keys()]))
+    st.session_state.category_list.sort()
+
     #options of nav_bar
     st.session_state.nav_bar_options = [{'label':x} for x in st.session_state.category_list]
     # override the theme, else it will use the Streamlit applied theme
@@ -186,16 +194,7 @@ def show_questions_list():
     st.session_state.nav_bar_selected_option = hc.option_bar(option_definition=st.session_state.nav_bar_options,title='Category',key='PrimaryOption',override_theme=over_theme,font_styling=font_fmt,horizontal_orientation=False)
 
  
-    
-#Save the answer, if not out of time, in a global variable
-def submit_answer() :
-    answer = st.session_state.local_answer
 
-    current_key = question_keys[st.session_state.num_question]
-    st.session_state.questions_dictionnary[current_key]["Submitted answer"] = answer
-
-    #update global data
-    st.session_state.local_answer = None
 
 #End the QCM : submit last answer and update global data
 def end_qcm():
@@ -203,7 +202,7 @@ def end_qcm():
 
 def send_answers():
     st.session_state.qcm_has_ended = True
-    submit_answer() #submit the last answer
+
     SendEmailFunctions.send_results_by_mail(receiver_email=email_receiver, 
     name_applicant=st.session_state.name, 
     dictionary_to_send=st.session_state.questions_dictionnary, 
@@ -311,13 +310,4 @@ if st.session_state.qcm_has_started :
         st.write("Your answers have been sent! Thank you for your time.")
 
     asyncio.run(watch(timer_container, st.session_state.start_question_time, timer_in_seconds, st.session_state.timer_should_run))
-
-
-
-    
-
-
-
-
-
 
